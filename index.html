@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" 
+        rel="stylesheet"
+    >
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Carousel - Twentyone Pilots</title>
+</head>
+<body>
+    <main>
+            <!-- Title -->
+            <div class="title center">
+                <div class="logo">
+                    <img src="./images/twentyone-pilots.png" alt="logo">
+                </div>
+                <h1>T&#216;P 3 - Twenty&#248;ne Pil&#248;ts</h1>
+            </div>
+
+            <!-- Carousel -->
+            <section class="section">
+                    <div class="container">
+                        <div class="carousel flex" id="carousel">
+                            <div class="img-wrapper" id="last-image">
+                                <img 
+                                    src="./images/screen.jpg" 
+                                    alt="screen - twentyone pilots"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <div class="img-wrapper">
+                                <img 
+                                    src="./images/kitchen-sink.jpg" 
+                                    alt="kitchen sink - twentyone pilots" 
+                                    loading="lazy"
+                                >
+                            </div>
+                            <div class="img-wrapper">
+                                <img 
+                                    src="./images/migrane.png" 
+                                    alt="migrane - twentyone pilots"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <div class="img-wrapper">
+                                <img 
+                                    src="./images/screen.jpg" 
+                                    alt="screen - twentyone pilots"
+                                    loading="lazy"
+                                >
+                            </div>
+                            <div class="img-wrapper" id="first-image">
+                                <img 
+                                    src="./images/kitchen-sink.jpg" 
+                                    alt="kitchen sink - twentyone pilots" 
+                                    loading="lazy"
+                                >
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!-- Controller for Carousel -->
+            <section class="section">
+                <div class="container">
+                    <div class="dot-group center">
+                        <button class="dot dot--active dot-1"></button>
+                        <button class="dot dot-2"></button>
+                        <button class="dot dot-3"></button>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>

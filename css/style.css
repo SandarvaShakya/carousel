@@ -83,7 +83,7 @@ a{
 }
 
 .transition{
-    transition: all .7s ease;
+    transition: all 1s ease-in-out;
 }
 
 .dot-group{
